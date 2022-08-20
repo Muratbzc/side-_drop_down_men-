@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.box {
+  margin-top: 5rem;
+  margin-left: 5rem;
+  width: 2rem;
+  height: 15rem;
+  transition: all 0.2s;
+}
+
+.menü {
+  background-color: #bf9000;
+  height: 3rem;
+  cursor: pointer;
+  display: flex;
+}
+
+.liste {
+  background-color: #e7b82b;
+  height: 12rem;
+}
+
+ul {
+  list-style-type: none;
+  display: none;
+}
+
+li {
+  line-height: 2rem;
+}
+
+span {
+  display: none;
+  color: white;
+}
+
+i {
+  margin: auto;
+  font-size: 2rem;
+}
+
+.box:hover span {
+  display: flex;
+  margin: auto;
+  padding-left: 7rem;
+}
+
+.box:hover ul {
+  display: block;
+  text-align: center;
+}
+
+.box:hover {
+  width: 15rem;
+}
+
+.box:hover i {
+  transform: rotateY(180deg);
+  margin: auto;
+}
